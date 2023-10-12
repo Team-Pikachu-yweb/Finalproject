@@ -5,8 +5,30 @@
   text-decoration: none;
   list-style: none;
 }
+<<<<<<< Updated upstream
 header {
   background: url(img/indexheaderphoto.jpg);
+=======
+.header {
+  background: url(img/indexheaderphoto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  color: #fbfbfb;
+
+}
+.hours-header {
+  background: url(img/detective_pikachu_returns_screenshot_13.jpg);
+>>>>>>> Stashed changes
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  color: #fbfbfb;
+}
+.team-header {
+  background: url(img/detective_pikachu_returns_screenshot_13.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
