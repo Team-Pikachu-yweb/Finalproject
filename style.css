@@ -5,8 +5,17 @@
   text-decoration: none;
   list-style: none;
 }
-header {
+.header {
   background: url(images/indexheaderphoto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  color: #fbfbfb;
+
+}
+.hours-header {
+  background: url(img/detective_pikachu_returns_screenshot_13.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,7 +60,7 @@ li {
 ul {
   text-align: center;
   padding-bottom: 20px;
-  color: #3f3025;
+
 }
 
 hr {
@@ -238,3 +247,32 @@ body {
     opacity: 0.7;
   }  
 
+  table, th, td {
+    border: 1px solid #3f3025;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #schedule {
+    border-collapse: collapse;
+    background-color: #faf2d0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 5px #3f3025;
+  }
+  
+  #schedule th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3f3025;
+    color: white;
+  }
+  
+  #schedule td,
+  #schedule th {
+    border: 1px solid #ddd;
+    padding: 8px 20px;
+  }
+  
