@@ -6,10 +6,9 @@
   list-style: none;
 }
 
-header {
-  background: url(img/indexheaderphoto.jpg);
 
-.header {
+
+header {
   background: url(img/indexheaderphoto.jpg);
   background-position: center;
   background-size: cover;
@@ -20,11 +19,7 @@ header {
 }
 
 .team-header {
-  background: url(img/detective_pikachu_returns_screenshot_13.jpg);
-
-.header {
-  background: url(images/indexheaderphoto.jpg);
-
+  background: url(img/team3.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,6 +27,8 @@ header {
   color: #fbfbfb;
 
 }
+
+
 .hours-header {
   background: url(img/detective_pikachu_returns_screenshot_13.jpg);
   background-position: center;
