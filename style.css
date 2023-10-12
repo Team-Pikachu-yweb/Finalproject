@@ -5,8 +5,26 @@
   text-decoration: none;
   list-style: none;
 }
+
+header {
+  background: url(img/indexheaderphoto.jpg);
+
+.header {
+  background: url(img/indexheaderphoto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  color: #fbfbfb;
+
+}
+
+.team-header {
+  background: url(img/detective_pikachu_returns_screenshot_13.jpg);
+
 .header {
   background: url(images/indexheaderphoto.jpg);
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,8 +59,7 @@ h1,
 
 body {
   font-family: "Oswald", sans-serif;
-
-  color: #3f3025;
+  background-color: red;
 }
 
 li img {
@@ -146,6 +163,7 @@ h2,
 p {
   margin: 20px;
 }
+
 body {
     background-color:lightgoldenrodyellow;
     font-family: 'Oswald', sans-serif;
