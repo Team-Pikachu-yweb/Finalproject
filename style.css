@@ -5,6 +5,122 @@
    
   }
 
+<<<<<<< Updated upstream
+=======
+h1,
+.indexheaderpg {
+  text-shadow: 2px 2px 3px black;
+  text-align: center;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+
+  color: #3f3025;
+}
+
+li img {
+  width: 50px;
+  height: auto;
+  vertical-align: center;
+  z-index: 1;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+ul {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #3f3025;
+}
+
+hr {
+  border-color: #3f3025;
+}
+
+#pikavideo {
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.indextopbutton {
+  background-color: #faf2d0;
+  border: none;
+  padding: 9px;
+  border-radius: 20px;
+  margin: 20px 30px;
+
+  cursor: pointer;
+  vertical-align: text-bottom;
+  box-shadow: 0px 0px 5px #3f3025;
+}
+
+.indextopbut {
+  color: #3f3025;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.indextopbut:hover {
+  color: #faf2d0;
+  transition: 0.25s;
+}
+
+.indextopbutton:hover {
+  background-color: #f7d346;
+  padding: 13px;
+  transition: 0.25s;
+  margin-top: 30px;
+}
+
+.aboutpara {
+  margin-top: 15px;
+}
+
+section {
+  background-color: lightgoldenrodyellow;
+}
+
+#servicetable {
+  border-collapse: collapse;
+  background-color: #faf2d0;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 5px #3f3025;
+}
+
+#servicetable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3f3025;
+  color: white;
+}
+
+#servicetable td,
+#servicetable th {
+  border: 1px solid #ddd;
+  padding: 8px 20px;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #f7d346;
+  padding-top: 30px;
+  text-align: center;
+}
+
+h2,
+p {
+  margin: 20px;
+}
+>>>>>>> Stashed changes
 body {
     background-color:lightgoldenrodyellow;
     font-family: 'Oswald', sans-serif;
