@@ -26,7 +26,15 @@ header {
   color: #fbfbfb;
 
 }
+.contact-header {
+  background: url(img/pikachu-contact.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  color: #fbfbfb;
 
+}
 
 .hours-header {
   background: url(img/detective_pikachu_returns_screenshot_13.jpg);
@@ -289,4 +297,27 @@ body {
     border: 1px solid #ddd;
     padding: 8px 20px;
   }
-  
+
+  .contact-header{
+    background-image:linear-gradient(rgba(120, 158, 254, 0.5), rgba(249, 240, 113, 0.5)), url(img/pika-head.png), url('img/pikachu-contact.jpg' );
+    background-size: cover, 10%;
+    text-align: center;
+  }
+  .contact-form{
+    /* display: inline-block; */
+    padding-top: 2em;
+    background-color: aliceblue;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 2em;
+}
+input,textarea{
+    margin-left: 8em;
+    width: 120%;
+}
+form{
+    width:40%;
+}
