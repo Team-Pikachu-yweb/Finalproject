@@ -1,65 +1,9 @@
-<<<<<<< Updated upstream
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
    
   }
-=======
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-
-header {
-  background: url(img/indexheaderphoto.jpg);
-}
-.header {
-  background: url(img/indexheaderphoto.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 250px;
-  color: #fbfbfb;
-
-}
-
-.team-header {
-  background: url(img/detective_pikachu_returns_screenshot_13.jpg);
-}
-
-.header {
-  background: url(images/indexheaderphoto.jpg);
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 250px;
-  color: #fbfbfb;
-
-}
-.hours-header {
-  background: url(img/detective_pikachu_returns_screenshot_13.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 250px;
-  color: #fbfbfb;
-}
-.navlink {
-  color: #fbfbfb;
-  text-shadow: 1px 1px 2px black;
-}
-.navlink:hover {
-  color: #f7d346;
-  font-size: larger;
-  transition: 0.5s;
-  text-shadow: 2px 2px 8px black;
-}
->>>>>>> Stashed changes
 
 body {
     background-color:lightgoldenrodyellow;
@@ -126,7 +70,7 @@ body {
     object-fit: cover;
 }  
 
-,card {
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.193);
     transition: 0.3s;
 }
