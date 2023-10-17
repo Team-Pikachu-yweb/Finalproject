@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+section {
+  height: 400px;
+}
+
 
 
 header {
@@ -13,7 +17,7 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 250px;
+  height: 600px;
   color: #fbfbfb;
 
 }
@@ -22,7 +26,7 @@ header {
   background: url(img/wp1877533.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 250px;
+  height: 600px;
   color: #fbfbfb;
 
 }
@@ -175,7 +179,8 @@ body {
 }  
 
 .wrapper {
-    margin-top: 10%;
+    margin-top: 60px;
+    height: 500px;
 }
 
 .wrapper h1 {
@@ -246,7 +251,7 @@ body {
     padding: 2px 16px;
   }
 
-  button {
+  /* button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -257,7 +262,7 @@ body {
     cursor: pointer;
     width: 100%;
     font-size: 15px;
-  }
+  } */
   
   a {
     text-decoration: none;
