@@ -117,16 +117,11 @@ hr {
   font-weight: bold;
 }
 
-.indextopbut:hover {
-  color: #faf2d0;
-  transition: 0.25s;
-}
+
 
 .indextopbutton:hover {
   background-color: #f7d346;
-  padding: 13px;
   transition: 0.25s;
-  margin-top: 30px;
 }
 
 .aboutpara {
@@ -335,7 +330,9 @@ body {
     margin-right: auto;
     box-shadow: 0px 0px 5px #3f3025;
   }
-  
+.greyrow {
+  background-color: #f8edbb;
+}
   #schedule th {
     padding-top: 12px;
     padding-bottom: 12px;
