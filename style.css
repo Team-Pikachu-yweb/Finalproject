@@ -23,9 +23,10 @@ header {
 }
 
 .team-header {
-  background: url(img/wp1877533.jpg);
+  background: url(img/bg-contact2.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 600px;
   color: #fbfbfb;
 
