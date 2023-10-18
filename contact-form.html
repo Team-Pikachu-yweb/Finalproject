@@ -3,47 +3,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pika HomePage</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="/img/pika-head.png" />
+    <link rel="icon" type="image/x-icon" href="/images/pika-head.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/a16a13a636.js" crossorigin="anonymous"></script>
   </head>
   <body>
   <header class="contact-header">
     <nav class="navbar">
       <ul>
-         <li>
+        <li>
           <a href="index.html" class="navlink"><img src="img/pika-head.png" /></a>
-        </li> 
+        </li>
         <li><a href="index.html#about" class="navlink">Who We Are</a></li>
         <li><a href="index.html#indexservice" class="navlink">Services</a></li>
         <li><a href="hoursindex.html" class="navlink" _blank>Business Hours</a></li>
         <li><a href="teammembers.html" class="navlink">Leadership</a></li>
         <li><a href="#" class="navlink">Contact Us</a></li>
       </ul>
-      <h1>Team Pickachu</h1>
+<h1>Team Pickachu</h1>
       <p class="indexheaderpg">We are the best coders in the world</p>
     </nav>
   </header>
   <br>
 
-    <div class="contact-form">
-        <p>Please don't hasitate to contact us if you have any questions or suggestions</p><br><br>
-        <form action="" method="">
-    
-                <label for="first-name">First Name</label><br>
-                <input type="text" id="first-name" name="first-name" placeholder="Your first name"><br><br>
-                <label for="last-name">Last Name</label><br>
-                <input type="text" id="last-name" name="last-name" placeholder="Your last name"><br><br>    
-                <label for="organization">Organization</label><br>
-                <input type="text" id="first-name" name="first-name" placeholder="Your organization"><br><br>
-                <label for="message">Message</label><br>
-                <textarea id="message" name="message" col="20" rows="5"></textarea><br><br>
-                <input type="submit" name="submit" value="submit">
+    <div class="contact">
+        <p class="p-contact">Please contact us if you have any questions<br>
+          Team Pikachu is ready to help!<i class="fa-solid fa-bolt fa-fade fa-sm" style="color:#ffff ;"></i></p><br>
+        <form action="results.com" method="post" class="contact-form">
+          <div class="input-contact">
+            <input type="text" id="name-contact" required>
+            <label for="name-contact"><i class="fa-solid fa-user"></i>Name</label>
+          </div>
+          <div class="input-contact">
+            <input type="text" id="org-contact" required>
+            <label for="org-contact"><i class="fa fa-building"style="font-size:16px"></i>Organization</label>
+          </div>
+          <div class="input-contact">
+            <input type="number" id="number-contact" >
+            <label for="number-contact"><i class='fas fa-phone-square-alt' style='font-size:16px'></i>Phone number (optional)</label>
+          </div>
+          <div class="input-contact">
+            <input type="email" id="emial-contact" >
+            <label for="emial-contact"><i class="fa-solid fa-envelope"></i>Email (optional)</label>
+          </div>
+          <div class="input-contact">
+            <textarea id="message-contact" rows=8 required></textarea>
+            <label for="message-contact"><i class="fa-solid fa-comments"style='font-size:16px'></i>Message</label>
+          </div>
+          <button class="contact-button" type="submit">Submit<i class="fa-solid fa-paper-plane"></i></button>
 
+
+    
          </form>
         </div>
         <footer>

@@ -32,13 +32,15 @@ header {
 
 }
 .contact-header {
-  background: url(img/pikachu-contact.jpg);
+  background: url(img/bg-contact1.jpg);
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  height: 250px;
+  background-size: cover;
+  height: 600px;
   color: #fbfbfb;
-
+  background-image:linear-gradient(rgba(120, 158, 254, 0.1), rgba(249, 240, 113, 0.1)), url(img/pika-head.png), url('img/bg-contact1.jpg' );
+  background-size: cover, 10%;
+  text-align: center;
 }
 
 .hours-header {
@@ -348,26 +350,64 @@ body {
     padding: 8px 20px;
   }
 
-  .contact-header{
-    background-image:linear-gradient(rgba(120, 158, 254, 0.5), rgba(249, 240, 113, 0.5)), url(img/pika-head.png), url('img/pikachu-contact.jpg' );
-    background-size: cover, 10%;
-    text-align: center;
-  }
   .contact-form{
-    /* display: inline-block; */
-    padding-top: 2em;
-    background-color: aliceblue;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    width:70%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .input-contact{
+    margin-bottom: 20px;
+    position: relative;
+  }
+  input,textarea{
+    width: 100%;
+    padding: 10px;
+    border:0.5px solid #fff;
+    color:#0a0800;
+    background: #f9de70;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  
+  form label{
+    height:100%;
+    position:absolute;
+    left:0;
+    right:0;
+    padding: 10px;
+    cursor: text;
+    transition: 0.2s;
+  }
+  
+  input:focus~label,
+  input:valid~label,
+  textarea:focus~label,
+  textarea:valid~label
+  {
+    top:-30px;
+    font-size: 14px;
+  }
+  
+  
+  .contact-button{
+    padding:15px 0;
+    color: #0a0800;
+    outline:none;
+    background: #f9de70;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .p-contact {
+    margin: auto; 
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-bottom: 2em;
-}
-input,textarea{
-    margin-left: 8em;
-    width: 120%;
-}
-form{
-    width:40%;
-}
+    font-size: 20px;
+    max-width: 600px;
+    padding: 20px ;
+    background: #f9de70;
+  }
+  
