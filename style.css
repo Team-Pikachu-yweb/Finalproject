@@ -41,11 +41,11 @@ header {
 }
 
 .hours-header {
-  background: url(img/detective_pikachu_returns_screenshot_13.jpg);
+  background: url(img/detective-pikachu-icegif-2.gif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 250px;
+  height: 600px;
   color: #fbfbfb;
 }
 .navlink {
