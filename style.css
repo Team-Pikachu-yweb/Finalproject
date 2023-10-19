@@ -251,7 +251,7 @@ body {
   padding: 2px 16px;
 }
 
-button {
+/* button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -262,7 +262,7 @@ button {
     cursor: pointer;
     width: 100%;
     font-size: 15px;
-  }
+  } */
 
 a {
   text-decoration: none;
