@@ -190,7 +190,7 @@ body {
 }
 .team {
   display: flex;
-  text-align: center;c
+  text-align: center;
   width: auto;
   justify-content: center;
   flex-wrap: wrap;
@@ -243,8 +243,9 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
-}
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
 
 .container {
   padding: 2px 16px;
@@ -275,20 +276,53 @@ a:hover {
 }
 
 .btn-neon {
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 14px;
-  line-height: 50px;
-  color: #000;
-  width: 90px;
-  transition: 1s;
-  transition-delay: 0.9s;
-  transition: 1s;
-  position: relative;
-  display: inline-block;
-  border-radius: 10px;
-}
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #000;
+    width: 90px;
+    transition: 1s;
+    transition-delay: .9s;
+    transition: 1s;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+   }
+
+   
+
+   .btn-neon:hover{
+     box-shadow: 0 0 10px 0 0 10px #ff6f61,
+     0 0 40px #ff6f61,
+     0 0 80px #ff6f61;
+     background-color: #F6CF57;
+   }
+ 
+ 
+ .btn-neon:hover polyline{
+   stroke-dashoffset: -460;
+ }
+ 
+ .btn-neon svg{
+   position: absolute;
+     top:0;
+     left:0;
+     right:0;
+     bottom:0;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .btn-neon svg polyline{
+   fill: transparent;
+   stroke:  #ff6f61;
+   stroke-width: 8px;
+   stroke-dasharray: 40 460;
+   stroke-dashoffset: 40;
+    transition:  .8s ease-in-out;
+ }
 
 .btn-neon:hover {
   box-shadow: 0 0 10px 0 0 10px #ff6f61, 0 0 40px #ff6f61, 0 0 80px #ff6f61;
