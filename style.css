@@ -190,7 +190,7 @@ body {
 }
 .team {
   display: flex;
-  text-align: center;c
+  text-align: center;
   width: auto;
   justify-content: center;
   flex-wrap: wrap;
@@ -291,9 +291,6 @@ a:hover {
     border-radius: 10px;
    }
 
-   #neon {
-    
-   }
    
 
    .btn-neon:hover{
