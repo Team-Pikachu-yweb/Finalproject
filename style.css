@@ -35,12 +35,15 @@ header {
   background: url(img/bg-contact1.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   height: 600px;
   color: #fbfbfb;
-  background-image:linear-gradient(rgba(120, 158, 254, 0.1), rgba(249, 240, 113, 0.1)), url(img/pika-head.png), url('img/bg-contact1.jpg' );
-  background-size: cover, 10%;
+  background-image:linear-gradient(rgba(130, 163, 247, 0.1), rgba(246, 246, 243, 0.1)), url('img/bg-contact1.jpg' );
+  background-size: cover;
   text-align: center;
+}
+*contact-gif{
+  width: 7%;
 }
 
 .hours-header {
