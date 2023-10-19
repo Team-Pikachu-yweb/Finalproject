@@ -10,8 +10,6 @@ section {
   height: 400px;
 }
 
-
-
 header {
   background: url(img/indexheaderphoto.jpg);
   background-position: center;
@@ -19,7 +17,6 @@ header {
   background-repeat: no-repeat;
   height: 600px;
   color: #fbfbfb;
-
 }
 
 .team-header {
@@ -29,7 +26,6 @@ header {
   background-size: cover;
   height: 600px;
   color: #fbfbfb;
-
 }
 .contact-header {
   background: url(img/bg-contact1.jpg);
@@ -38,11 +34,15 @@ header {
   /* background-size: cover; */
   height: 600px;
   color: #fbfbfb;
-  background-image:linear-gradient(rgba(130, 163, 247, 0.1), rgba(246, 246, 243, 0.1)), url('img/bg-contact1.jpg' );
+  background-image: linear-gradient(
+      rgba(130, 163, 247, 0.1),
+      rgba(246, 246, 243, 0.1)
+    ),
+    url("img/bg-contact1.jpg");
   background-size: cover;
   text-align: center;
 }
-*contact-gif{
+*contact-gif {
   width: 7%;
 }
 
@@ -91,7 +91,6 @@ li {
 ul {
   text-align: center;
   padding-bottom: 20px;
-
 }
 
 hr {
@@ -122,8 +121,6 @@ hr {
   padding: 8px;
   font-weight: bold;
 }
-
-
 
 .indextopbutton:hover {
   background-color: #f7d346;
@@ -174,85 +171,83 @@ p {
 }
 
 body {
-    background-color:lightgoldenrodyellow;
-    font-family: 'Oswald', sans-serif;
-    
-}  
+  background-color: lightgoldenrodyellow;
+  font-family: "Oswald", sans-serif;
+}
 
 .wrapper {
-    margin-top: 60px;
-    height: 500px;
+  margin-top: 60px;
+  height: 500px;
 }
 
 .wrapper h1 {
-    font-size: 52px;
-    margin-bottom: 60px;
-    text-align: center;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 .team {
-    display: flex;
-    text-align: center;
-    width:auto;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .team .team-member {
-    background: #fff;
-    margin: 5px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    position: relative;
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  position: relative;
 }
 
-.team .team-member h3{
-    color: black;
-    font-size: 26px;
-    margin-top: 50px;
+.team .team-member h3 {
+  color: black;
+  font-size: 26px;
+  margin-top: 50px;
 }
 
 .team .team-member p.role {
-    color: #FFCC66;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin: 12px 0;
+  color: #ffcc66;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
 }
 
-.team .team-member .img_team img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-     position: absolute; 
-     top: -50px;
-     left: 50%;
-     transform: translateX(-50%);
-     background: #fff;
-    
+.team .team-member .img_team img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
 }
 
-  .team .team-member .img_team img {
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    object-fit: cover;
-}  
+.team .team-member .img_team img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  object-fit: cover;
+}
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.193);
-    transition: 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.193);
+  transition: 0.3s;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
-  }
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
 
-  .container {
-    padding: 2px 16px;
-  }
+.container {
+  padding: 2px 16px;
+}
 
-  /* button {
+button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -263,148 +258,148 @@ body {
     cursor: pointer;
     width: 100%;
     font-size: 15px;
-  } */
-  
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
   }
-  
-  button:hover, a:hover {
-    opacity: 0.7;
-  }  
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
 
 .btn-neon {
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 14px;
-    line-height: 50px;
-    color: #000;
-    width: 90px;
-    transition: 1s;
-    transition-delay: .9s;
-    transition: 1s;
-    position: relative;
-    display: inline-block;
-    border-radius: 10px;
-   }
-   
-   .btn-neon:hover{
-     box-shadow: 0 0 10px 0 0 10px #ff6f61,
-     0 0 40px #ff6f61,
-     0 0 80px #ff6f61;
-     background-color: #F6CF57;
-   }
- 
- 
- .btn-neon:hover polyline{
-   stroke-dashoffset: -460;
- }
- 
- .btn-neon svg{
-   position: absolute;
-     top:0;
-     left:0;
-     right:0;
-     bottom:0;
-     width: 100%;
-     height: 100%;
- }
- 
- .btn-neon svg polyline{
-   fill: transparent;
-   stroke:  #ff6f61;
-   stroke-width: 8px;
-   stroke-dasharray: 40 460;
-   stroke-dashoffset: 40;
-    transition:  .8s ease-in-out;
- }
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  line-height: 50px;
+  color: #000;
+  width: 90px;
+  transition: 1s;
+  transition-delay: 0.9s;
+  transition: 1s;
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+}
 
-  table, th, td {
-    border: 1px solid #3f3025;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  #schedule {
-    border-collapse: collapse;
-    background-color: #faf2d0;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0px 0px 5px #3f3025;
-  }
+.btn-neon:hover {
+  box-shadow: 0 0 10px 0 0 10px #ff6f61, 0 0 40px #ff6f61, 0 0 80px #ff6f61;
+  background-color: #f6cf57;
+}
+
+.btn-neon:hover polyline {
+  stroke-dashoffset: -460;
+}
+
+.btn-neon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-neon svg polyline {
+  fill: transparent;
+  stroke: #ff6f61;
+  stroke-width: 8px;
+  stroke-dasharray: 40 460;
+  stroke-dashoffset: 40;
+  transition: 0.8s ease-in-out;
+}
+
+table,
+th,
+td {
+  border: 1px solid #3f3025;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#schedule {
+  border-collapse: collapse;
+  background-color: #faf2d0;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 5px #3f3025;
+}
 .greyrow {
   background-color: #f8edbb;
 }
-  #schedule th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #3f3025;
-    color: white;
-  }
-  
-  #schedule td,
-  #schedule th {
-    border: 1px solid #ddd;
-    padding: 8px 20px;
-  }
+#schedule th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3f3025;
+  color: white;
+}
 
-  .contact-form{
-    width:70%;
-    max-width: 600px;
-    margin: auto;
-  }
-  
-  .input-contact{
-    margin-bottom: 20px;
-    position: relative;
-  }
-  input,textarea{
-    width: 100%;
-    padding: 10px;
-    border:0.5px solid #fff;
-    color:#0a0800;
-    background: #f9de70;
-    font-size: 15px;
-    margin-bottom: 10px;
-  }
-  
-  
-  form label{
-    height:100%;
-    position:absolute;
-    left:0;
-    right:0;
-    padding: 10px;
-    cursor: text;
-    transition: 0.2s;
-  }
-  
-  input:focus~label,
-  input:valid~label,
-  textarea:focus~label,
-  textarea:valid~label
-  {
-    top:-30px;
-    font-size: 14px;
-  }
-  
-  
-  .contact-button{
-    padding:15px 0;
-    color: #0a0800;
-    outline:none;
-    background: #f9de70;
-    border: 1px solid #fff;
-    width: 100%;
-    cursor: pointer;
-    font-size: 15px;
-    margin-bottom: 10px;
-  }
+#schedule td,
+#schedule th {
+  border: 1px solid #ddd;
+  padding: 8px 20px;
+}
+
+.contact-form {
+  width: 70%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.input-contact {
+  margin-bottom: 16px;
+  position: relative;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 0.5px solid #fff;
+  color: #0a0800;
+  background: #f9de70;
+  font-size: 15px;
+  margin-bottom: 10px;
+  outline: 0;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  cursor: text;
+  transition: 0.2s;
+}
+
+.contact-button {
+  padding: 10px 0;
+  color: #0a0800;
+  outline: none;
+  background: #f9de70;
+  border: 1px solid #0b0b0b;
+  width: 100%;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -30px;
+  font-size: 14px;
+}
+
   .p-contact {
     margin: auto; 
     text-align: center;
@@ -413,4 +408,3 @@ body {
     padding: 20px ;
     background: #f9de70;
   }
-  
